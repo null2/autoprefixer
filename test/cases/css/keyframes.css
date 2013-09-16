@@ -1,0 +1,41 @@
+@keyframes coloring {
+    from {
+        color: black;
+    }
+    to {
+        color: white;
+    }
+}
+
+@keyframes moving {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100px;
+    }
+}
+
+@keyframes one {
+    1 {
+        color: black;
+    }
+
+    100 {
+        color: white;
+    }
+}
+
+@keyframes two {
+    top {
+        top: 0;
+    }
+    bottom {
+        top: 100px;
+    }
+}
+
+a {
+    color: red;
+    position: relative;
+}

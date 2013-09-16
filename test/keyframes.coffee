@@ -4,7 +4,7 @@ cases     = require('./lib/cases')
 
 describe 'Keyframes', ->
   beforeEach ->
-    @nodes      = cases.load('css/css')
+    @nodes      = cases.load('css/keyframes')
     @rules      = @nodes.stylesheet.rules
     @css        = new CSS(@nodes.stylesheet)
     @css.number = 0
@@ -25,11 +25,11 @@ describe 'Keyframes', ->
     it 'adds prefix to cloned one', ->
       @keyframes.cloneWithPrefix('-moz-')
 
-      @rules.length.should.eql(4)
+      @rules.length.should.eql(6)
       @rules[0].vendor.should == '-moz-'
 
   describe 'remove()', ->
 
     it 'removes node', ->
       @keyframes.remove()
-      @rules.length.should.eql(2)
+      @rules.length.should.eql(4)

@@ -1,3 +1,6 @@
+This fork adds [Skrollr Stylesheet](https://github.com/Prinzhorn/skrollr-stylesheets:) support.
+
+
 # Autoprefixer
 
 <img align="right" width="94" src="http://ai.github.io/autoprefixer/logo.svg" title="Autoprefixer logo by Anton Lovchikov">
